@@ -9,6 +9,7 @@ Group:     System/Internationalization
 License:   GPL
 URL:       http://sourceforge.jp/projects/shinji/
 Source0:   http://prdownloads.sourceforge.jp/shinji/15963/%{name}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:      mana
 BuildRequires: mana
 
