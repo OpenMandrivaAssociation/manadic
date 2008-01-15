@@ -1,5 +1,5 @@
 %define	version  0.1.4
-%define	release  %mkrel 5
+%define	release  %mkrel 6
 
 Name:      manadic
 Summary:   A dictionary for Mana
