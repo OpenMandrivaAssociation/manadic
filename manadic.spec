@@ -27,14 +27,14 @@ A dictionary for Mana.
 make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 # (tv) fix installing manarc:
-perl -pi -e "s@ /usr/etc/@ $RPM_BUILD_ROOT/usr/etc/@" Makefile
-mkdir -p $RPM_BUILD_ROOT/usr/etc/
+perl -pi -e "s@ /usr/etc/@ %{buildroot}/usr/etc/@" Makefile
+mkdir -p %{buildroot}/usr/etc/
 %makeinstall_std
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %files
