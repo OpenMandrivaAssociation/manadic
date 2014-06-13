@@ -1,7 +1,7 @@
 Summary:	A dictionary for Mana
 Name:		manadic
 Version:	0.1.4
-Release:	17
+Release:	18
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://sourceforge.jp/projects/shinji/
