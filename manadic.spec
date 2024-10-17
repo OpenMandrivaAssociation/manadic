@@ -4,7 +4,7 @@ Version:	0.1.4
 Release:	20
 Group:		System/Internationalization
 License:	GPLv2
-Url:		http://sourceforge.jp/projects/shinji/
+Url:		https://sourceforge.jp/projects/shinji/
 Source0:	http://prdownloads.sourceforge.jp/shinji/15963/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	mana
