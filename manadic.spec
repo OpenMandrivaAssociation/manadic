@@ -7,6 +7,11 @@ License:	GPLv2
 Url:		https://sourceforge.jp/projects/shinji/
 Source0:	http://prdownloads.sourceforge.jp/shinji/15963/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	mana
 Requires:	mana
 
